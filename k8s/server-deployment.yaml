@@ -5,7 +5,7 @@ metadata:
 spec:
   replicas: 3
   selector:
-    matachLabels:
+    matchLabels:
       component: server
   template:
     metadata:
